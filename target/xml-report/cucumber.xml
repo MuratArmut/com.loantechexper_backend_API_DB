@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.956">
+    <testcase classname="As an administrator, I should be able to delete a withdrawal record in the system through the API connection." name="The deletion of the withdrawal record through the API should be confirmed by sending" time="7.888">
+        <system-out><![CDATA[Given The API user sets "api/withdrawal/details/2" path parameters..........passed
+And The API user records the response from the api withdrawal details endpoint with valid authorization information.passed
+Then The API user verifies that the status code is 203......................passed
+And The API User verifies that the message information in the response body is "No withdraw.".passed
+]]></system-out>
+    </testcase>
+</testsuite>
